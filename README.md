@@ -1,5 +1,6 @@
 # YujieDataViz
 MDE Preterm Data Viz Workshop
 
-a <This will be a series of data viz />
-b <Stay tuned />
+This will be a series of data viz <This will be a series of data viz />
+
+Stay tuned <Stay tuned />
