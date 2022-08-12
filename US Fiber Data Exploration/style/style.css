@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Helvetica Bold",Helvetica,Arial,sans-serif;
+  margin: 10px 50px;
+  font-size: 32pt;
+  color:rgb(0, 0, 0);
+}
+
+h2 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 18px 50px;
+  font-size: 18pt;
+  color:rgb(0, 0, 0);
+}
+
+h3 {
+  font-family: "Helvetica Thin",Helvetica,Arial,sans-serif;
+  margin: 15px 50px;
+  font-size: 14pt;
+  color:rgb(0, 0, 0);
+}
+
+
+
+p {
+  font-family: "Helvetica Thin",Helvetica,Arial,sans-serif;
+  margin: 8px 50px;
+  font-size: 12pt;
+  color:rgb(0, 0, 0);
+}
+
+#chart {
+  width: 100%;
+  height: 90vh;
+}
+
+.axisLabel {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12pt;
+}
+
+.axis {
+  font-size: 8pt;
+}
+
+.button_group{
+  margin: 5px 50px;
+}
+
+button{
+  width: 150px;
+  height: 40px;
+  /* background-color: rgb(255, 219, 237); */
+  background-color: white;
+  border: 1.5px solid palevioletred;
+  font: size 30pt;
+  color:rgb(92, 0, 66);
+  text-align: center;
+  padding: 10px 10px;
+}
+
+button:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+button:focus {
+  background-color: palevioletred;
+  color: white;
+  outline:0;
+}
+
+button.active {
+  background-color: palevioletred;
+  color: white;
+  outline:0;
+}

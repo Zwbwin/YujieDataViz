@@ -1,0 +1,14 @@
+{
+  "name": "d8c88646cd4b40a1",
+  "main": "sankeyfiber.js",
+  "version": "314.0.0",
+  "homepage": "https://observablehq.com/d/d8c88646cd4b40a1",
+  "author": {
+    "name": "Yujie Wang",
+    "url": "https://observablehq.com/@yujiewang"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

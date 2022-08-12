@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>US Fiber Parallel Sets</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<head>
+    <h1>US Textitle Fiber Trade Data Exploration</h1>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<br>
+    <h2>The discrete nature of categorical data makes it a particular challenge to understand the underlying struture and relationsips in the Textile Fiber Trade Dataset.
+    We want to use data visualization as an exploration tool for the dataset to understand </h2>
+    <h3>(1) Comparison between natural & man-made fibers </h3> 
+    <h3>(2) Relative importantce of different fiber types and applications</h3>
+
+    <p>Data: <a href="https://www.ers.usda.gov/data-products/cotton-wool-and-textile-data/cotton-and-wool-yearbook/">Cotton and Wool Yearbook</a>
+    </p>
+    <br>
+
+    <body>
+
+        <h2>Comparison between Natural & Man-made Fibers in the US Fiber Import in 2020</h2>
+        <div class="button_group">
+            <button class="tablinks active" id="initialData" onclick="showVis(event)">Natural Fibers</button>
+            <button class="tablinks" id="updateData" onclick="showVis(event)">Man-made Fibers</button>
+        </div>
+        <div id="chart"></div>
+        <script src="./Synthetic_Natural_import.js"></script>
+
+
+        <h2>Relative Importance of Category and Fiber Type in the US Fiber Import in 2020</h2>
+        <script type="module">
+
+            import define from "./index.js";
+            import {Runtime, Library, Inspector} from "./runtime.js";
+            
+            const runtime = new Runtime();
+            const main = runtime.module(define, Inspector.into(document.body));
+
+        </script>
+    </body>
+
+
